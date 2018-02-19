@@ -1,0 +1,421 @@
+
+body{
+    width: 2000px;
+}
+
+html h1,h2,h3,p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Navbar*/
+
+.navbar{
+    padding-left: 90px;
+    padding-right: 20px;
+    padding-top: 60px;
+    background-color: transparent;
+    position: absolute;
+    overflow: inherit;
+    z-index: 1;
+}
+
+.navbar ul{
+    list-style-type: none;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar-mars{
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.navbar-circle{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: #ff343d 3.5px solid;
+    margin-bottom: 13px;
+}
+
+.navbar-phone{
+    padding-right: 50px;
+    color: grey;
+    padding-left: 60px;
+}
+
+.navbar-buy{
+    margin-left: 1200px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*First section*/
+
+.main-drone-img{
+    position: relative;
+    right: 200px;
+}
+
+.first-section-img-background{
+    background-color: white;
+    width: 652px;
+    height: 652px;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 910px;
+    margin-top: 200px;
+}
+
+.first-section{
+    overflow: hidden;
+    width: 2000px;
+    height: 1032px;
+}
+
+.first-top-left{
+    float: left;
+    width: 1244px;
+    height: 1032px;
+    background-color: #eff1f6;
+}
+
+.first-top-left h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.first-top-left{
+    padding-left: 300px;
+    padding-top: 450px; 
+}
+
+.first-top-bullets{
+    float: left;
+    margin-left: -40px;
+    margin-top: -30px;
+    padding-right: 50px;
+    color: lightgrey;
+}
+
+.first-top-bullets span{
+    color: #ff343d;
+}
+
+.first-top-left-text{
+    margin-top: 90px;
+    padding-left: 50px;
+}
+
+.first-top-left-scroll{
+    color: black;
+    transform: rotate(270DEG);
+    width: 150px;
+    margin-left: -80px;
+    margin-top: 200px;
+    font-weight: bold;
+}
+
+.first-top-right{
+    float: left;
+    width: 752px;
+    height: 1280px;
+    background-color: #ff343d;
+    position: relative;
+}
+
+.first-top-right h1{
+    transform: rotate(90Deg);
+    position: absolute;
+    color: #ff343d;
+    text-shadow: 0px 0px 40pt #000101;
+    opacity: 0.15;
+    font-size: 396px;
+    font-weight: 900;
+    height: 690px;
+    width: 783px;
+}
+
+/*Second section*/
+
+.second-section{
+    width: 2000px;
+}
+
+.second-section-left{
+    float: left;
+    height: 614px;
+    width: 620px;
+}
+
+.second-section-left img{
+    position: absolute;
+}
+
+.second-section-text{
+    position: relative;
+    padding-left: 215px;
+    padding-top: 266px;
+}
+
+.second-section-text h2{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.second-section-right-black{
+    background-color: black;
+    opacity: 0.6;
+    width: 616px;
+    float: left;
+    height: 614px;
+}
+
+.second-section-right-black h2{
+    font-size: 60px;
+    padding-top: 250px;
+    padding-left: 95px;
+    padding-right: 80px;
+    color: white;
+    font-weight: bold;
+}
+
+.second-section-right{
+    float: left;
+    height: 614px;
+    width: 1380px;
+    color: white;
+}
+.second-section-right img{
+    position: absolute;
+    width: 1376px;
+    height: 613px;
+}
+
+.second-section-right h2,p{
+    position: relative;
+}
+
+.second-section-right button{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+    transform: rotate(-90DEG);
+    margin-left: 440px;
+    margin-top: 285px;
+    width: 182px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.second-section-right-line{
+    width: 200px;
+    border-bottom: 3px lightgrey solid;
+    transform: rotate(-90DEG);
+    margin-left: 1045px;
+    margin-top: 180px;
+}
+
+/*Third/features section*/
+
+.feature-section{
+    width: 2000px;
+    height: 600px;
+    background-color: white;
+    margin-top: 600px;
+    text-align: center;
+}
+
+.feature-section h2{
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.feature-section ul{
+    list-style-type: none;
+}
+
+.feature-section li{
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 100px;
+    line-height: 130px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*Forth section*/
+
+.forth-section{
+    height: 656px;
+    width: 2000px
+}
+
+.forth-section-left{
+    float: left;
+    height: 656px;
+    width: 968px;
+}
+
+.forth-section-right{
+    float: left;
+    height: 656px;
+    width: 1032px;
+    background-color: #232323;
+    color: white;
+    padding-top: 192px;
+    padding-left: 130px;
+    padding-right: 200px;
+}
+
+.forth-section-right h2{
+    font-size: 80px;
+}
+
+.forth-section-right span{
+    color: red;
+}
+
+.forth-section-right button{
+    height: 57px;
+    width: 182px;
+    background-color: #232323;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid grey;
+    margin-top: 20px;  
+    font-weight: bold;
+}
+
+/*Fifth/products section*/
+
+.products-section{
+    width: 2000px;
+    height: 836px;
+}
+
+.product-text{
+    float: left;
+    color:black;
+    padding-top: 334px;
+    padding-left: 215px;
+    padding-right: 100px;
+    width: 1015px;
+}
+
+.product-text h2{
+    font-size: 80px;
+}
+
+.product-text span{
+    color: red;
+}
+
+.product-text button{
+    width: 172px;
+    height: 57px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    border: 1px solid lightgrey;
+    font-weight: bold;
+    margin-top: 63px;
+}
+
+.product-image{
+    width: 985px;
+    padding-left: 75px;
+}
+
+/*Journey/sixth section*/
+
+.journey-section{
+    height: 1190px;
+    width: 2000px;
+    color: white;
+}
+
+.journey-section img{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.journey-section h2{
+    position: relative;
+    padding-top: 800px; 
+    font-size: 80px;
+    text-align: center;
+}
+
+.journey-section button{
+    background-color: white;
+    border-radius: 30px; 
+    color: teal;
+    border: none;
+    position: relative;
+    margin-top: 55px;
+    width: 182px;
+    height: 57px;
+    margin-left: 900px;
+}
+
+.product-image{
+    float: left;
+}
+
+/*Footer section*/
+
+.footer-section{
+    height: 500px;
+    width: 2000px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+
+.footer-text{
+    padding-top: 200px;
+    line-height: 35px;
+}
+
+.footer-section h1{
+    color: white;
+    text-shadow: 0px 0px 95pt #000101;
+    opacity: 0.05;
+    font-size: 230px;
+    font-weight: bold;
+    position: absolute;
+    padding-left: 380px;
+    padding-top: 100px;
+}
+
+.footer-section h3{
+    font-weight: bold;
+}
+
+.mars-logo-footer{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: #ff343d 3.5px solid;
+    margin-bottom: 13px;
+}
+
+.footer-text ul{
+    list-style-type: none;
+}
+
+.footer-text li{
+    display: inline-block;
+}
